@@ -8,7 +8,7 @@ RUN apt-get update ; \
 
 RUN rm -rf /app 
 ADD limesurvey.tar.bz2 /
-RUN mv limesurvey app; \
+RUN mv cloudata-limesurvey app; \
 	mkdir -p /uploadstruct; \
 	chown -R www-data:www-data /app
 
